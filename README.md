@@ -18,6 +18,8 @@ cols: [[1], [7], [1, 6], [1, 6, 1], [1, 6, 1], [1, 4, 2], [2, 3, 2], [9], [7], [
 You can solve this puzzle with,
 
 ```python
+from nonogram import Nonogram
+
 n = 10
 nonogram = Nonogram(n)
 
